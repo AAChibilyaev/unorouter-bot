@@ -57,6 +57,7 @@ bun run dev
 ## Build
 
 ```bash
+bun run typecheck      # application sources under src/
 bun run build          # tsup -> dist/main.js (also runs the bot-imports check)
 ```
 
